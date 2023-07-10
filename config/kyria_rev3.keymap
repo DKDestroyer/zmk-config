@@ -19,16 +19,6 @@
 / {
     combos {
         compatible = "zmk,combos";
-
-        Backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <10 11>;
-        };
-
-        Enter {
-            bindings = <&kp ENTER>;
-            key-positions = <39 38>;
-        };
     };
 
     keymap {
